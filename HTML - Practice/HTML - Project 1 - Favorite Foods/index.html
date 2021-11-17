@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Mihaela Antipa">
+    <title>Favorite Foods</title>
+
+    <style>
+        h2 {
+            margin-left: 50px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        body {
+            background-color:navajowhite;
+            margin: 0;
+        }
+        .topbar {
+            background-color:coral;
+            padding: 25px;
+            margin: 0;
+        }
+
+        .menu {
+            display: inline-block;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 24px;
+            padding: 5px 25px;
+        }
+
+       .list {
+           margin-left: 25px;
+           color: green;
+       }
+
+       a {
+           color: green;
+           text-decoration: none;
+       }
+       
+       .container {
+           width: 400px;
+           height: 400px;
+           overflow: hidden;
+           margin-top: 50px;
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       img {
+           display: block;
+           width: fit-content;
+           overflow: hidden;
+        }
+
+       .portrait {
+           width: 400px;
+           height: auto;
+           position: center;
+       }
+
+       .landscape {
+           height: 400px;
+           width: auto;
+           position: center;
+       }
+
+       .caramel {
+           margin-top: -150px;
+       }
+      
+    </style>
+</head>
+
+<body>
+    <ul class="topbar" type="none">
+        <li class="menu">Index</li>
+        <li class="menu">Food</li>
+        <li class="menu">About</li>
+    </ul>
+
+    
+        <h2>Top 5 Favorite Foods:</h2>
+        <ul class="list" type="disc">
+            <li><a href="index.html#noodle"> Rice Noodle with Crispy Chicken</a></li>
+            <li><a href="index.html#cheesecake">Salted Caramel Cheesecake</a></li>
+            <li><a href="index.html#fish">Fried Fish</a></li>
+            <li><a href="index.html#greek">Greek Salad</a></li>
+            <li><a href="index.html#shawarma">Shawarma</a></li>
+        </ul>
+
+
+        <div class="content">
+            <div class="container">
+                <img src="Crispy-Chicken-Noodles.jpg" alt="Rice Noodle with Crispy Chicken" id="noodle" class="portrait">
+            </div>
+            <h3>Rice Noodle with Crispy Chicken</h3>
+
+            <div class="container">
+                <img class="caramel" src="Salted-Caramel-Cheesecake.jpg" alt="Salted Caramel Cheesecake" id="cheesecake" class="portrait">
+            </div>
+            <h3>Salted Caramel Cheesecake</h3>
+
+            <div class="container">
+                <img src="Fried-Fish.jpg" alt="Fried Fish" id="fish" class="landscape">
+            </div>
+            <h3>Fried Fish</h3>
+
+            <div class="container">
+                <img src="Greek-Salad.jpg" alt="Greek Salad" id="greek" class="landscape">
+            </div>
+            <h3>Greek Salad</h3>
+
+            <div class="container">
+                <img src="Shawarma.jpg" alt="Shawarma" id="shawarma" class="landscape">
+            </div>
+            <h3>Shawarma</h3>
+
+
+        </div>
+ 
+</body>
+</html>

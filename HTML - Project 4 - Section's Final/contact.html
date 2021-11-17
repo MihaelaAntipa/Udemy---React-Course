@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Section - Final Project</title>
+
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            background-color: white;
+            height: 100vh;
+        }
+
+        /*  menu items  */
+        .menu-bar {
+            height: 45px;
+            background-color: #0F3460;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .menu-item {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            margin-left: 20px;
+            margin-right: 20px;
+            vertical-align: middle;
+            padding-top: 15px;
+            color: white;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        
+        /*  Title  */
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: 50px 0 40px;
+        }
+
+
+        /*  Form  */
+        form {
+            width: 320px;
+            padding: 20px;
+            border: 1px solid lightgray;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .input-box {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 5px 0;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            border-bottom: 1px solid lightgray;
+            margin: 10px auto;
+            text-align: justify;
+            line-height: 1.4em;
+        }
+
+        .button {
+            width: 100px;
+            height: 40px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0F3460;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            display: block;
+            border-radius: 5px;
+        }
+
+
+        
+        /*  footer  */
+        footer {
+            display: block;
+            position: absolute;
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            padding: 50px 0 30px 0;
+            bottom: 0;
+        }
+
+        .footer-item {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: darkgray;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <main>
+        <nav class="menu-bar">
+            <span class="menu-item"><a href="index.html">Trips</a></span>
+            <span class="menu-item"><a href="about.html">About</a></span>
+            <span class="menu-item"><a href="contact.html">Contact</a></span>
+        </nav>
+
+        <h1>Wanna come on my next trip? Contact Me.</h1>
+
+        <form action="#" method="POST">
+            <input type="text" class="input-box" placeholder="Full Name" name="full-name" required><br>
+
+            <input type="email" class="input-box" placeholder="Email" name="email" required><br>
+
+            <input type="tel" class="input-box" placeholder="Contact Number" name="contact-number" required><br>
+
+            <input type="submit" class="button" value="Submit" name="submit">
+        </form>
+    </main>
+
+    <footer>
+        <span><a class="footer-item" href="index.html">Trips</a></span>
+        <span><a class="footer-item" href="about.html">About</a></span>
+        <span><a class="footer-item" href="contact.html">Contact</a></span>
+    </footer>
+    
+</body>
+</html>
